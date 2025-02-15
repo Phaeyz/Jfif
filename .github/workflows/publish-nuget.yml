@@ -1,0 +1,14 @@
+name: Publish NuGet
+
+on:
+  workflow_dispatch:
+
+jobs:
+  publish-nuget:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Publish NuGet
+      uses: Phaeyz/CICD/.github/actions/publish-nuget@main
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        nuget-api-key: ${{ secrets.NuGetApiKey }}

@@ -1,0 +1,27 @@
+name: Create and Release NuGet
+
+on:
+  workflow_dispatch:
+    inputs:
+      breaking-change:
+        description: 'Has Breaking Change'
+        required: true
+        type: boolean
+      new-feature:
+        description: 'Has New Feature'
+        required: true
+        type: boolean
+
+permissions:
+  contents: write
+
+jobs:
+  create-and-release-nuget:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Create and Release NuGet
+      uses: Phaeyz/CICD/.github/actions/create-and-release-nuget@main
+      with:
+        breaking-change: ${{ inputs.breaking-change }}
+        new-feature: ${{ inputs.new-feature }}
+        github-token: ${{ secrets.GITHUB_TOKEN }}
