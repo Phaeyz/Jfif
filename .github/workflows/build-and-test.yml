@@ -1,0 +1,17 @@
+name: Build and Test
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Build and Test
+      uses: Phaeyz/CICD/.github/actions/build-and-test@main
