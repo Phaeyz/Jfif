@@ -13,7 +13,7 @@ public T? FindFirst<T>()
 
 ## Return Value
 
-The first segment of the specified type in the JFIF metadata.
+The first segment of the specified type in the JFIF metadata, or `null` if it wasn't found.
 
 ## Exceptions
 
@@ -45,7 +45,7 @@ public T? FindFirst<T>(out int index)
 
 ## Return Value
 
-The first segment of the specified type in the JFIF metadata.
+The first segment of the specified type in the JFIF metadata, or `null` if it wasn't found.
 
 ## Exceptions
 

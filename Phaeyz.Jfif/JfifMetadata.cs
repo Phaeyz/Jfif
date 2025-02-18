@@ -134,7 +134,7 @@ public class JfifMetadata
     /// A start-of-scan segment is always implied to be in this array.
     /// </param>
     /// <param name="created">
-    /// Receives a boolean indicating whether or not the return segment was created during this
+    /// Receives a boolean indicating whether or not the returned segment was created during this
     /// call because it was not found.
     /// </param>
     /// <param name="index">
