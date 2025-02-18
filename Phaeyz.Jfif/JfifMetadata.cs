@@ -35,7 +35,7 @@ public class JfifMetadata
     /// The type of segment to find.
     /// </typeparam>
     /// <returns>
-    /// The first segment of the specified type in the JFIF metadata.
+    /// The first segment of the specified type in the JFIF metadata, or <c>null</c> if it wasn't found.
     /// </returns>
     /// <exception cref="Phaeyz.Jfif.JfifException">
     /// A segment was found, but the class type did not match the expected type.
@@ -52,7 +52,7 @@ public class JfifMetadata
     /// Receives the zero-based index of the segment which has been found, or <c>-1</c> if it was not found.
     /// </param>
     /// <returns>
-    /// The first segment of the specified type in the JFIF metadata.
+    /// The first segment of the specified type in the JFIF metadata, or <c>null</c> if it wasn't found.
     /// </returns>
     /// <exception cref="Phaeyz.Jfif.JfifException">
     /// A segment was found, but the class type did not match the expected type.
