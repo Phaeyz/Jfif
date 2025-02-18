@@ -105,7 +105,7 @@ public class JfifMetadata
     /// <param name="repositionExistingSegment">
     /// If <c>true</c> and the segment already exists, it will be repositioned according to the
     /// <paramref name="precedingSegmentKeys"/> array. If <c>false</c>, the existing segment will not be repositioned.
-    /// A start-of-scan segment is always implied to be in this array.
+    /// A start-of-image segment is always implied to be in this array.
     /// </param>
     /// <param name="precedingSegmentKeys">
     /// When creating or repositioning, ensures the segment is placed after the last segment
@@ -131,7 +131,7 @@ public class JfifMetadata
     /// <param name="repositionExistingSegment">
     /// If <c>true</c> and the segment already exists, it will be repositioned according to the
     /// <paramref name="precedingSegmentKeys"/> array. If <c>false</c>, the existing segment will not be repositioned.
-    /// A start-of-scan segment is always implied to be in this array.
+    /// A start-of-image segment is always implied to be in this array.
     /// </param>
     /// <param name="created">
     /// Receives a boolean indicating whether or not the returned segment was created during this
@@ -234,7 +234,7 @@ public class JfifMetadata
     /// <param name="precedingSegmentKeys">
     /// Inserts the segment after the last segment matching any of the specified keys.
     /// If no keys are specified, the segment will be placed at the beginning.
-    /// A start-of-scan segment is always implied to be in this array.
+    /// A start-of-image segment is always implied to be in this array.
     /// </param>
     /// <returns>
     /// The index which the segment was inserted at.
