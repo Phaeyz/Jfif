@@ -11,7 +11,7 @@ public T GetFirstOrCreate<T>(bool repositionExistingSegment,
 | parameter | description |
 | --- | --- |
 | T | The type of segment to get or create. |
-| repositionExistingSegment | If `true` and the segment already exists, it will be repositioned according to the *precedingSegmentKeys* array. If `false`, the existing segment will not be repositioned. A start-of-scan segment is always implied to be in this array. |
+| repositionExistingSegment | If `true` and the segment already exists, it will be repositioned according to the *precedingSegmentKeys* array. If `false`, the existing segment will not be repositioned. A start-of-image segment is always implied to be in this array. |
 | precedingSegmentKeys | When creating or repositioning, ensures the segment is placed after the last segment matching any of the specified keys. |
 
 ## Return Value
@@ -46,7 +46,7 @@ public T GetFirstOrCreate<T>(bool repositionExistingSegment, out bool created, o
 | parameter | description |
 | --- | --- |
 | T | The type of segment to get or create. |
-| repositionExistingSegment | If `true` and the segment already exists, it will be repositioned according to the *precedingSegmentKeys* array. If `false`, the existing segment will not be repositioned. A start-of-scan segment is always implied to be in this array. |
+| repositionExistingSegment | If `true` and the segment already exists, it will be repositioned according to the *precedingSegmentKeys* array. If `false`, the existing segment will not be repositioned. A start-of-image segment is always implied to be in this array. |
 | created | Receives a boolean indicating whether or not the returned segment was created during this call because it was not found. |
 | index | Receives the index of the returned segment. |
 | precedingSegmentKeys | When creating or repositioning, ensures the segment is placed after the last segment matching any of the specified keys. If no keys are specified, the segment will be placed at the beginning. |

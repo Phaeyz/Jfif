@@ -11,7 +11,7 @@ public int Insert<T>(T segment, IEnumerable<SegmentKey> precedingSegmentKeys)
 | --- | --- |
 | T | The type of segment being inserted. |
 | segment | The segment to insert. |
-| precedingSegmentKeys | Inserts the segment after the last segment matching any of the specified keys. If no keys are specified, the segment will be placed at the beginning. A start-of-scan segment is always implied to be in this array. |
+| precedingSegmentKeys | Inserts the segment after the last segment matching any of the specified keys. If no keys are specified, the segment will be placed at the beginning. A start-of-image segment is always implied to be in this array. |
 
 ## Return Value
 
