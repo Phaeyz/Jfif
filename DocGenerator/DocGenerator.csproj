@@ -12,4 +12,8 @@
     <PackageReference Include="XmlDocMarkdown.Core" Version="2.9.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Phaeyz.Jfif\Phaeyz.Jfif.csproj" />
+  </ItemGroup>
+
 </Project>
