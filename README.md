@@ -45,7 +45,7 @@ await JfifMetadata.WriteAllToStreamAsync(outputStream, jfifMetadatas); // Can wr
 // Can also write independent JFIF metadata
 foreach (JfifMetadata jfifMetadata in jfifMetadatas)
 {
-    await jfifMetadata.WriteToStreamAsync();
+    await jfifMetadata.WriteToStreamAsync(outputStream);
 }
 ```
 

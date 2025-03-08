@@ -11,6 +11,10 @@ public T? FindFirst<T>()
 | --- | --- |
 | T | The type of segment to find. |
 
+## Return Value
+
+The first segment of the specified type in the JFIF metadata, or `null` if it wasn't found.
+
 ## Exceptions
 
 | exception | condition |
@@ -38,6 +42,10 @@ public T? FindFirst<T>(out int index)
 | --- | --- |
 | T | The type of segment to find. |
 | index | Receives the zero-based index of the segment which has been found, or `-1` if it was not found. |
+
+## Return Value
+
+The first segment of the specified type in the JFIF metadata, or `null` if it wasn't found.
 
 ## Exceptions
 
