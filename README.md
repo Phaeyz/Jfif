@@ -148,8 +148,9 @@ If you plan to use this code for commercial purposes or within an organization, 
 
 ## Donation Options
 
-There are several ways to support Phaeyz with a donation. Perhaps the best way is to use Patreon so that recurring small donations continue to support the development of Phaeyz.
+There are several ways to support Phaeyz with a donation. Perhaps the best way is to use GitHub Sponsors or Patreon so that recurring small donations continue to support the development of Phaeyz.
 
+- **GitHub Sponsors**: [https://github.com/sponsors/phaeyz](https://github.com/sponsors/phaeyz)
 - **Patreon**: [https://www.patreon.com/phaeyz](https://www.patreon.com/phaeyz)
 - **Bitcoin**: Send funds to address: ```bc1qdzdahz8d7jkje09fg7s7e8xedjsxm6kfhvsgsw```
 - **PayPal**: Send funds to ```phaeyz@pm.me``` ([directions](https://www.paypal.com/us/cshelp/article/how-do-i-send-money-help293))
